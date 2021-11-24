@@ -1,0 +1,13 @@
+[user]
+	email = nobby.crowe@gmail.com
+	name = Rob Crowe
+[url "git@github.com:"]
+	insteadOf = https://github.com
+[filter "strongbox"]
+	clean = strongbox -clean %f
+	smudge = strongbox -smudge %f
+	required = true
+[diff "strongbox"]
+	textconv = strongbox -diff
+[init]
+	defaultBranch = main

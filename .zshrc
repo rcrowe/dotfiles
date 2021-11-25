@@ -17,13 +17,9 @@ done
 ## ~~~ OS specific ~~~
 case "$OSTYPE" in
   linux*)
-    for file in $(ls -A1 $DOTFILES/zsh/*.linux); do
-      source $file
-    done
+    # nothing yet
   ;;
   darwin*)
-    for file in $(ls -A1 $DOTFILES/zsh/*.osx); do
-      source $file
-    done
+    source $DOTFILES/zsh/homebrew.osx
   ;;
 esac

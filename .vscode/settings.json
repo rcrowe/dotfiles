@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "**/*.init": "shellscript",
+        "**/*.linux": "shellscript",
+        "**/*.osx": "shellscript"
+    }
+}

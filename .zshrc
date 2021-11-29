@@ -1,18 +1,22 @@
 export DOTFILES="$HOME/.dotfiles"
 
-## ~~~ OH-MY-ZSH ~~~~ ##
+## ~~~ OH-MY-ZSH ~~~ ##
 export ZSH="$HOME/.oh-my-zsh"
 
-plugins=(zsh-autosuggestions git)
+plugins=(
+  zsh-autosuggestions
+  colored-man-pages
+  git
+)
 
 source $ZSH/oh-my-zsh.sh
 
-## ~~~ Common ~~~
+## ~~~ Common ~~~ ##
 source $DOTFILES/zsh/common.zsh
 source $DOTFILES/zsh/go.zsh
 source $DOTFILES/zsh/aliases.zsh
 
-## ~~~ OS specific ~~~
+## ~~~ OS specific ~~~ ##
 case "$OSTYPE" in
   linux*)
     # nothing yet

@@ -3,16 +3,14 @@ export DOTFILES="$HOME/.dotfiles"
 ## ~~~ OH-MY-ZSH ~~~~ ##
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="simple"
-
-plugins=(git)
+plugins=(zsh-autosuggestions git)
 
 source $ZSH/oh-my-zsh.sh
 
 ## ~~~ Common ~~~
-for file in $(ls -A1 $DOTFILES/zsh/*.init); do
-  source $file
-done
+source $DOTFILES/zsh/common.zsh
+source $DOTFILES/zsh/go.zsh
+source $DOTFILES/zsh/aliases.zsh
 
 ## ~~~ OS specific ~~~
 case "$OSTYPE" in
@@ -20,6 +18,6 @@ case "$OSTYPE" in
     # nothing yet
   ;;
   darwin*)
-    source $DOTFILES/zsh/homebrew.osx
+    source $DOTFILES/zsh/osx.zsh
   ;;
 esac

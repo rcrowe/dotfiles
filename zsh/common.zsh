@@ -4,3 +4,7 @@ then
     echo "'starship' could not be found. Install https://starship.rs"
 fi
 eval "$(starship init zsh)"
+
+# editor
+export VISUAL=vim
+export EDITOR="$VISUAL"

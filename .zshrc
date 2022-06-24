@@ -12,9 +12,10 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 ## ~~~ Common ~~~ ##
+source $DOTFILES/zsh/aliases.zsh
+source $DOTFILES/zsh/commands.zsh
 source $DOTFILES/zsh/common.zsh
 source $DOTFILES/zsh/go.zsh
-source $DOTFILES/zsh/aliases.zsh
 
 ## ~~~ OS specific ~~~ ##
 case "$OSTYPE" in

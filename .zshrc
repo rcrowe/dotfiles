@@ -13,8 +13,8 @@ source $ZSH/oh-my-zsh.sh
 
 ## ~~~ Common ~~~ ##
 source $DOTFILES/zsh/aliases.zsh
-source $DOTFILES/zsh/commands.zsh
 source $DOTFILES/zsh/common.zsh
+source $DOTFILES/zsh/func.zsh
 source $DOTFILES/zsh/go.zsh
 
 ## ~~~ OS specific ~~~ ##

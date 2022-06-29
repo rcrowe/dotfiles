@@ -16,6 +16,7 @@ source $DOTFILES/zsh/aliases.zsh
 source $DOTFILES/zsh/common.zsh
 source $DOTFILES/zsh/func.zsh
 source $DOTFILES/zsh/go.zsh
+source $DOTFILES/zsh/node.zsh
 
 ## ~~~ OS specific ~~~ ##
 case "$OSTYPE" in

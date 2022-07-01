@@ -16,12 +16,11 @@ source $DOTFILES/zsh/aliases.zsh
 source $DOTFILES/zsh/common.zsh
 source $DOTFILES/zsh/func.zsh
 source $DOTFILES/zsh/go.zsh
-source $DOTFILES/zsh/node.zsh
 
 ## ~~~ OS specific ~~~ ##
 case "$OSTYPE" in
   linux*)
-    # nothing yet
+    source $DOTFILES/zsh/linux.zsh
   ;;
   darwin*)
     source $DOTFILES/zsh/osx.zsh

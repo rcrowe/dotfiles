@@ -1,4 +1,4 @@
-function extract () {
+extract () {
   if [ -f $1 ] ; then
     case $1 in
       *.tar.bz2) tar xvjf $1   ;;
@@ -20,7 +20,8 @@ function extract () {
   fi
 }
 
-# Update system and packages
 update() {
-    topgrade
+    brew update
+    brew upgrade
+    brew cleanup
 }

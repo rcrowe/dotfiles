@@ -11,3 +11,5 @@
 	textconv = strongbox -diff
 [init]
 	defaultBranch = main
+[core]
+	excludesfile = /Users/robcrowe/.gitignore

@@ -21,7 +21,6 @@ extract () {
 }
 
 update() {
-    brew update
-    brew upgrade
+    topgrade
     brew cleanup
 }

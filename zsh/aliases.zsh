@@ -1,8 +1,13 @@
-## ~~~ Replace commands ~~~
+# replace
 alias cp="cp -i" # confirm before overwriting something
-alias df="df -h" # human readable sizes
-
 alias vi="vim"
 
-## ~~~ Shortcuts ~~~
+# directories
+alias dotfiles="cd $DOTFILES"
+alias work="cd ~/code/uw"
+
+# git
+alias g="git"
+
+# k8s
 alias k="kubectl"

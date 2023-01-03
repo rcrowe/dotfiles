@@ -57,3 +57,7 @@ cask 'font-fira-code-nerd-font'
 
 # Mac App Store
 # mas 'Xcode', id: 497799835
+
+# Work
+tap 'utilitywarehouse/tap'
+brew 'utilitywarehouse/tap/wiresteward'

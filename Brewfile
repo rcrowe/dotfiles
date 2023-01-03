@@ -3,6 +3,9 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 
+tap 'utilitywarehouse/tap'
+tap 'uw-labs/tap'
+
 # Binaries
 brew 'awscli'
 brew 'bash'
@@ -32,6 +35,9 @@ brew 'zsh'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 
+brew 'utilitywarehouse/tap/wiresteward'
+brew 'uw-labs/tap/strongbox'
+
 # Apps
 cask '1password'
 cask 'bartender'
@@ -58,6 +64,3 @@ cask 'font-fira-code-nerd-font'
 # Mac App Store
 # mas 'Xcode', id: 497799835
 
-# Work
-tap 'utilitywarehouse/tap'
-brew 'utilitywarehouse/tap/wiresteward'

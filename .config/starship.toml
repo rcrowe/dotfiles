@@ -9,5 +9,8 @@ error_symbol = "[✗](bold red) "
 truncation_length = 0
 truncate_to_repo = true
 
+[docker_context]
+disabled = true
+
 [golang]
 disabled = true

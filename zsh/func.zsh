@@ -21,5 +21,9 @@ extract () {
 }
 
 update() {
+    # Homebrew
     brew update && brew upgrade && brew cleanup
+    
+    # Oh-My-Zsh
+    omz update
 }

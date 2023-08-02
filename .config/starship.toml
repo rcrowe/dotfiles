@@ -1,4 +1,4 @@
-[line_break]
+[battery]
 disabled = true
 
 [character]
@@ -13,4 +13,7 @@ truncate_to_repo = true
 disabled = true
 
 [golang]
+disabled = true
+
+[line_break]
 disabled = true

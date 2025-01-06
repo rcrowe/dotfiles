@@ -10,11 +10,9 @@ tap 'uw-labs/tap'
 brew 'awscli'
 brew 'bash'
 brew 'bat'
-brew 'colima'
 brew 'coreutils'
 brew 'curl'
 brew 'docker'
-brew 'exa'
 brew 'fd'
 brew 'gh'
 brew 'git'
@@ -48,6 +46,7 @@ brew 'uw-labs/tap/strongbox'
 cask '1password'
 cask 'bartender'
 cask 'iterm2'
+cask 'ghostty'
 cask 'google-chrome'
 cask 'raycast'
 cask 'rectangle'
@@ -57,16 +56,9 @@ cask 'tableplus'
 cask 'todoist'
 cask 'visual-studio-code'
 
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlimagesize'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-
 # Fonts
 cask 'font-fira-code'
 cask 'font-fira-code-nerd-font'
 
 # Mac App Store
 # mas 'Xcode', id: 497799835
-

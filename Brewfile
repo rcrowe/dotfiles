@@ -1,8 +1,4 @@
 # Taps
-tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
-
 tap 'utilitywarehouse/tap'
 tap 'uw-labs/tap'
 

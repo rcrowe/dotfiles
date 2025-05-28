@@ -3,13 +3,7 @@
 	name = Rob Crowe
 [url "git@github.com:"]
 	insteadOf = https://github.com
-[filter "strongbox"]
-	clean = strongbox -clean %f
-	smudge = strongbox -smudge %f
-	required = true
-[diff "strongbox"]
-	textconv = strongbox -diff
 [init]
 	defaultBranch = main
 [core]
-	excludesfile = /Users/rcrowe/.gitignore
+	excludesfile = /Users/robcrowe/.gitignore

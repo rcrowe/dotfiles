@@ -1,7 +1,3 @@
-# Taps
-tap 'utilitywarehouse/tap'
-tap 'uw-labs/tap'
-
 # Binaries
 brew 'awscli'
 brew 'bash'
@@ -34,9 +30,6 @@ brew 'watch'
 brew 'zsh'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
-
-brew 'utilitywarehouse/tap/wiresteward'
-brew 'uw-labs/tap/strongbox'
 
 # Apps
 cask '1password'

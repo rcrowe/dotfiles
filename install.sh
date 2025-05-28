@@ -18,7 +18,7 @@ dotfile_map=(
 
 code_directories=(
   "rcrowe"
-  "uw"
+  "thirdfort"
 )
 
 ####################################

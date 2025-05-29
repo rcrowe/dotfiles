@@ -1,3 +1,6 @@
+# Taps
+tap 'hashicorp/tap'
+
 # Binaries
 brew 'bash'
 brew 'bat'

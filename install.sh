@@ -242,13 +242,27 @@ defaults write com.apple.dock wvous-tr-corner -int 0
 defaults write com.apple.dock wvous-bl-corner -int 0
 defaults write com.apple.dock wvous-br-corner -int 0
 
-###############################################################################
-# Kill affected applications                                                  #
-###############################################################################
+####################################
+## Rectangle
+####################################
+
+# Gap between windows
+defaults write com.knollsoft.Rectangle gapSize -int 5
+
+# Start at login
+defaults write com.knollsoft.Rectangle launchOnLogin -bool true
+
+# Cycle sizes on half actions
+defaults write com.knollsoft.Rectangle subsequentExecutionMode -int 0
+
+####################################
+## Kill affected applications
+####################################
 
 for app in \
 	"Dock" \
-	"Finder"; do
+	"Finder" \
+  "Rectangle"; do
 	killall "${app}" &> /dev/null
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."

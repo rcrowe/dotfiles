@@ -255,6 +255,9 @@ defaults write com.knollsoft.Rectangle launchOnLogin -bool true
 # Cycle sizes on half actions
 defaults write com.knollsoft.Rectangle subsequentExecutionMode -int 0
 
+# Check for updates automatically
+defaults write com.knollsoft.Rectangle SUAutomaticallyUpdate -bool true
+
 ####################################
 ## Kill affected applications
 ####################################

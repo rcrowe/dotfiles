@@ -7,6 +7,7 @@
 dotfile_exact=(
   ".config/ghostty"
   ".config/starship.toml"
+  ".editorconfig"
   ".gitconfig"
   ".zshrc"
 )

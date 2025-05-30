@@ -259,6 +259,13 @@ defaults write com.jordanbaird.Ice EnableAlwaysHiddenSection -bool true
 # icon: IceIcon -> Chevron
 
 ####################################
+## Raycast
+####################################
+
+# Emoji picker
+defaults write com.raycast.macos emojiPicker_skinTone light
+
+####################################
 ## Rectangle
 ####################################
 
@@ -282,7 +289,20 @@ for app in \
 	"Dock" \
 	"Finder" \
   "Ice" \
+  "Raycast" \
   "Rectangle"; do
 	killall "${app}" &> /dev/null
 done
+
+####################################
+## Restart background applications
+####################################
+
+for app in \
+  "Ice" \
+  "Raycast" \
+  "Rectangle"; do
+  open -a "${app}.app"
+done
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."

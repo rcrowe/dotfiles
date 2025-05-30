@@ -12,6 +12,9 @@ truncate_to_repo = true
 [docker_context]
 disabled = true
 
+[gcloud]
+disabled = true
+
 [golang]
 disabled = true
 

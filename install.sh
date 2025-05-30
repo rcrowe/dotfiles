@@ -244,6 +244,21 @@ defaults write com.apple.dock wvous-bl-corner -int 0
 defaults write com.apple.dock wvous-br-corner -int 0
 
 ####################################
+## Ice
+####################################
+
+# Automatically update
+defaults write com.jordanbaird.Ice SUAutomaticallyUpdate -bool true
+defaults write com.jordanbaird.Ice SUEnableAutomaticChecks -bool true
+
+# Always hidden section
+defaults write com.jordanbaird.Ice EnableAlwaysHiddenSection -bool true
+
+# todo:
+# launch at login
+# icon: IceIcon -> Chevron
+
+####################################
 ## Rectangle
 ####################################
 
@@ -266,6 +281,7 @@ defaults write com.knollsoft.Rectangle SUAutomaticallyUpdate -bool true
 for app in \
 	"Dock" \
 	"Finder" \
+  "Ice" \
   "Rectangle"; do
 	killall "${app}" &> /dev/null
 done

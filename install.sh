@@ -266,22 +266,6 @@ defaults write com.jordanbaird.Ice EnableAlwaysHiddenSection -bool true
 defaults write com.raycast.macos emojiPicker_skinTone light
 
 ####################################
-## Rectangle
-####################################
-
-# Gap between windows
-defaults write com.knollsoft.Rectangle gapSize -int 5
-
-# Start at login
-defaults write com.knollsoft.Rectangle launchOnLogin -bool true
-
-# Cycle sizes on half actions
-defaults write com.knollsoft.Rectangle subsequentExecutionMode -int 0
-
-# Check for updates automatically
-defaults write com.knollsoft.Rectangle SUAutomaticallyUpdate -bool true
-
-####################################
 ## Kill affected applications
 ####################################
 

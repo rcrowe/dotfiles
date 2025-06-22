@@ -23,7 +23,11 @@ extract () {
 update() {
     # Homebrew
     brew update && brew upgrade && brew cleanup
-    
+
+    # Mise - self-update not required as managed by Homebrew
+    mise up --cd ~/.config/mise
+    mise prune --cd ~/.config/mise
+
     # Oh-My-Zsh
     omz update
 }

@@ -6,4 +6,4 @@
 [init]
 	defaultBranch = main
 [core]
-	excludesfile = /Users/rcrowe/.gitignore
+	excludesfile = /Users/robert.crowe/.gitignore

@@ -1,10 +1,10 @@
 # replace
-alias cp="cp -i" # confirm before overwriting something
+alias cp="cp -i"     # confirm before overwriting something
 alias vi="vim"
+alias watch="watch " # support aliases by forcing current interactive shell to expand args
 
 # directories
 alias dotfiles="cd $DOTFILES"
-alias work="cd ~/code/thirdfort"
 
 # git
 alias g="git"

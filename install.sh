@@ -5,6 +5,7 @@
 ####################################
 
 dotfile_exact=(
+  ".codex/config.toml"
   ".config/ghostty"
   ".config/mise"
   ".config/starship.toml"
@@ -20,7 +21,7 @@ dotfile_map=(
 
 code_directories=(
   "rcrowe"
-  "thirdfort"
+  "work"
 )
 
 ####################################
@@ -274,8 +275,7 @@ for app in \
 	"Dock" \
 	"Finder" \
   "Ice" \
-  "Raycast" \
-  "Rectangle"; do
+  "Raycast"; do
 	killall "${app}" &> /dev/null
 done
 
@@ -285,8 +285,7 @@ done
 
 for app in \
   "Ice" \
-  "Raycast" \
-  "Rectangle"; do
+  "Raycast"; do
   open -a "${app}.app"
 done
 

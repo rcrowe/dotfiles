@@ -1,5 +1,6 @@
 # Taps
 tap 'hashicorp/tap'
+tap 'namespacelabs/namespace'
 
 # Binaries
 brew 'bash'
@@ -26,6 +27,7 @@ brew 'kubernetes-cli'
 brew 'kustomize'
 brew 'mas'
 brew 'mise'
+brew 'namespacelabs/namespace/nsc'
 brew 'ripgrep'
 brew 'starship'
 brew 'tree'

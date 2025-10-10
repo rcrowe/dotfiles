@@ -51,7 +51,7 @@ cask 'raycast'
 cask 'slack'
 cask 'spotify'
 cask 'tableplus'
-cask 'todoist'
+cask 'todoist-app'
 cask 'visual-studio-code'
 
 # Fonts

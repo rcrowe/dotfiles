@@ -6,8 +6,7 @@ alias watch="watch " # support aliases by forcing current interactive shell to e
 # directories
 alias dotfiles="cd $DOTFILES"
 
-# git
+# shortcuts
 alias g="git"
-
-# k8s
 alias k="kubectl"
+alias n="nsc"

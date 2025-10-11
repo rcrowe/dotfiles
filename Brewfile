@@ -42,9 +42,12 @@ brew 'zsh-syntax-highlighting'
 
 # Apps
 cask '1password'
+cask 'chatgpt'
+cask 'discord'
 cask 'ghostty'
 cask 'google-chrome'
 cask 'jordanbaird-ice'
+cask 'nvidia-geforce-now'
 cask 'obsidian'
 cask 'orbstack'
 cask 'rapidapi'

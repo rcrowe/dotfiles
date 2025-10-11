@@ -1,5 +1,4 @@
 # Taps
-tap 'hashicorp/tap'
 tap 'namespacelabs/namespace'
 
 # Binaries
@@ -47,6 +46,7 @@ cask 'discord'
 cask 'ghostty'
 cask 'google-chrome'
 cask 'jordanbaird-ice'
+cask 'linear-linear'
 cask 'nvidia-geforce-now'
 cask 'obsidian'
 cask 'orbstack'

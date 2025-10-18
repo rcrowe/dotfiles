@@ -33,3 +33,6 @@ disabled = true
 [nix_shell]
 # format = 'via ❄️ [\(nix\)](bold blue) '
 format = 'via ❄️ '
+
+[nodejs]
+disabled = true

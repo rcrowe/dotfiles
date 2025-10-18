@@ -6,6 +6,7 @@
 
 dotfile_exact=(
   ".codex/config.toml"
+  ".config/direnv"
   ".config/ghostty"
   ".config/mise"
   ".config/starship.toml"

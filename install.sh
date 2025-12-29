@@ -5,7 +5,7 @@
 ####################################
 
 dotfile_exact=(
-  ".codex/config.toml"
+  ".claude/settings.json"
   ".config/direnv"
   ".config/ghostty"
   ".config/mise"

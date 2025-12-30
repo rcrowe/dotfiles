@@ -1,2 +1,2 @@
 # Cargo home directory
-export PATH=/Users/rcrowe/.cargo/bin:$PATH
+[ -d "$HOME/.cargo/bin" ] && export PATH="$HOME/.cargo/bin:$PATH"

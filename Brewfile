@@ -1,4 +1,5 @@
 # Taps
+tap 'max-sixty/worktrunk'
 tap 'namespacelabs/namespace'
 
 # Binaries
@@ -29,6 +30,7 @@ brew 'kubectx'
 brew 'kubernetes-cli'
 brew 'kustomize'
 brew 'mas'
+brew 'max-sixty/worktrunk/wt'
 brew 'mise'
 brew 'namespacelabs/namespace/nsc'
 brew 'opencode'

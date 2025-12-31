@@ -1,5 +1,4 @@
 [user]
-	# Use environment variable GIT_EMAIL if set, otherwise fallback
 	email = 282571+rcrowe@users.noreply.github.com
 	name = Rob Crowe
 [url "git@github.com:"]

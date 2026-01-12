@@ -27,6 +27,9 @@ disabled = true
 [golang]
 disabled = true
 
+[gradle]
+disabled = true
+
 [line_break]
 disabled = true
 

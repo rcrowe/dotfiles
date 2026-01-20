@@ -1,6 +1,6 @@
 
 [settings]
-activate_aggressive = true                     # Force mise tools to be first in PATH
+activate_aggressive = false                    # Force mise tools to be first in PATH - causes issues with nix-shell if enabled
 experimental = true                            # Enable Go backend for Mise
 idiomatic_version_file_enable_tools = ["node"] # Use .nvmrc
 

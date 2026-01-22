@@ -24,6 +24,9 @@ update() {
     # Homebrew
     brew update && brew upgrade && brew cleanup
 
+    # Devbox
+    devbox update
+
     # Mise - self-update not required as managed by Homebrew
     mise up --cd ~/.config/mise
     mise prune --cd ~/.config/mise

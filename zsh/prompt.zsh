@@ -1,6 +1,6 @@
-# starship.rs
-if command -v starship &> /dev/null; then
-    eval "$(starship init zsh)"
-else
-    echo "'starship' could not be found. Install https://starship.rs"
-fi
+ZSH_THEME=""
+
+source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

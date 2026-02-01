@@ -9,7 +9,6 @@ dotfile_exact=(
   ".config/direnv"
   ".config/ghostty"
   ".config/mise"
-  ".config/starship.toml"
   ".editorconfig"
   ".gitconfig"
   ".zshrc"
@@ -18,6 +17,7 @@ dotfile_exact=(
 # from dotfiles repo to absolute path
 dotfile_map=(
   ".gitignore_global::$HOME/.gitignore"
+  ".p10k.zsh::$HOME/.p10k.zsh"
 )
 
 code_directories=(

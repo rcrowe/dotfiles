@@ -3,6 +3,7 @@ tap 'max-sixty/worktrunk'
 tap 'namespacelabs/namespace'
 
 # Binaries
+brew 'atuin'
 brew 'bash'
 brew 'bat'
 brew 'buf'

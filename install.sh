@@ -9,7 +9,6 @@ dotfile_exact=(
   ".config/direnv"
   ".config/ghostty"
   ".config/mise"
-  ".config/starship.toml"
   ".editorconfig"
   ".gitconfig"
   ".zshrc"

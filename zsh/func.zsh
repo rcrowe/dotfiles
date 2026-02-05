@@ -24,6 +24,9 @@ update() {
     # Homebrew
     brew update && brew upgrade && brew cleanup
 
+    # Amp
+    amp update
+
     # Devbox
     devbox update
 

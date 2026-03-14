@@ -1,5 +1,4 @@
 # Taps
-tap 'max-sixty/worktrunk'
 tap 'namespacelabs/namespace'
 
 # Binaries

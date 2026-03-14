@@ -1,11 +1,9 @@
 [user]
 	email = 282571+rcrowe@users.noreply.github.com
 	name = Rob Crowe
-[url "git@github.com:"]
-	insteadOf = https://github.com
-[url "git@gitlab.com:"]
-	insteadOf = https://gitlab.com
 [init]
 	defaultBranch = main
 [core]
-	excludesfile = /Users/rcrowe/.gitignore
+	excludesfile = ~/.gitignore
+[include]
+	path = ~/.gitconfig.local

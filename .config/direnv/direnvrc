@@ -1,1 +1,6 @@
-source $HOME/.nix-profile/share/nix-direnv/direnvrc
+# Source nix-direnv from available locations
+if [ -r "$HOME/.nix-profile/share/nix-direnv/direnvrc" ]; then
+    source "$HOME/.nix-profile/share/nix-direnv/direnvrc"
+elif [ -r "/nix/var/nix/profiles/default/share/nix-direnv/direnvrc" ]; then
+    source "/nix/var/nix/profiles/default/share/nix-direnv/direnvrc"
+fi

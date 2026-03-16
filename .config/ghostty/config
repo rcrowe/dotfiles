@@ -20,3 +20,4 @@ resize-overlay = never
 
 window-save-state = always
 window-inherit-working-directory=true
+

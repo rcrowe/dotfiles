@@ -5,6 +5,29 @@ experimental = true                            # Enable Go backend for Mise
 idiomatic_version_file_enable_tools = ["node"] # Use .nvmrc
 
 [tools]
-buf = "latest"
+# languages
 go = "1.25"
 node = "24.12"
+
+# dev tools
+buf = "latest"
+direnv = "latest"
+fzf = "latest"
+gh = "latest"
+git-lfs = "latest"
+jq = "latest"
+ripgrep = "latest"
+uv = "latest"
+yq = "latest"
+zoxide = "latest"
+
+# cli utilities
+atuin = "latest"
+bat = "latest"
+dust = "latest"
+
+# kubernetes
+k9s = "latest"
+kubectl = "latest"
+kubectx = "latest"
+kustomize = "latest"

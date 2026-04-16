@@ -24,7 +24,7 @@ brew 'zsh-syntax-highlighting'
 
 # Apps
 cask '1password'
-cask 'claude-code'
+cask 'claude-code@latest'
 cask 'discord'
 cask 'ghostty'
 cask 'google-chrome'

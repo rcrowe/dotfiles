@@ -13,11 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Clear runner token to force OIDC exchange
-        run: rm -f "$NSC_TOKEN_FILE" && unset NSC_TOKEN_FILE
-
       - name: Configure access to Namespace
         uses: namespacelabs/nscloud-setup@v0
+        env:
+          NSC_TOKEN_FILE: ""
 
       - name: Install Devbox CLI
         run: curl -fsSL get.namespace.so/devbox/install.sh | bash

@@ -12,6 +12,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      DEVBOX_IMAGE_NAME: rcrowe-dotfiles
+      DEVBOX_IMAGE_SITES: zrh
     steps:
       - uses: actions/checkout@v4
 
@@ -22,4 +25,7 @@ jobs:
         run: curl -fsSL get.namespace.so/devbox/install.sh | bash
 
       - name: Build Devbox image
-        run: devbox image build . --name=rcrowe-dotfiles -f .devbox/Dockerfile
+        run: devbox image build ---optimize=false --name=${{ env.DEVBOX_IMAGE_NAME }} -f .devbox/Dockerfile .
+
+      - name: Optimise for specific sites
+        run: devbox image optimize --name=${{ env.DEVBOX_IMAGE_NAME }} --site=${{ env.DEVBOX_IMAGE_SITES }}

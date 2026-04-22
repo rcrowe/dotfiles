@@ -25,7 +25,7 @@ jobs:
         run: curl -fsSL get.namespace.so/devbox/install.sh | bash
 
       - name: Build Devbox image
-        run: devbox image build ---optimize=false --name=${{ env.DEVBOX_IMAGE_NAME }} -f .devbox/Dockerfile .
+        run: devbox image build --optimize=false --name=${{ env.DEVBOX_IMAGE_NAME }} -f .devbox/Dockerfile .
 
       - name: Optimise for specific sites
         run: devbox image optimize --name=${{ env.DEVBOX_IMAGE_NAME }} --site=${{ env.DEVBOX_IMAGE_SITES }}

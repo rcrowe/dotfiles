@@ -3,11 +3,21 @@ name: Build Devbox Image (Namespace Runner)
 on:
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   build:
     runs-on: nscloud-ubuntu-22.04-amd64-8x16
     steps:
       - uses: actions/checkout@v4
+
+      - name: Clear runner token to force OIDC exchange
+        run: rm -f "$NSC_TOKEN_FILE" && unset NSC_TOKEN_FILE
+
+      - name: Configure access to Namespace
+        uses: namespacelabs/nscloud-setup@v0
 
       - name: Install Devbox CLI
         run: curl -fsSL get.namespace.so/devbox/install.sh | bash

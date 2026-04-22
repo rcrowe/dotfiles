@@ -10,13 +10,13 @@ permissions:
 jobs:
   build:
     runs-on: nscloud-ubuntu-22.04-amd64-8x16
+    env:
+      NSC_TOKEN_FILE: ""
     steps:
       - uses: actions/checkout@v4
 
       - name: Configure access to Namespace
         uses: namespacelabs/nscloud-setup@v0
-        env:
-          NSC_TOKEN_FILE: ""
 
       - name: Install Devbox CLI
         run: curl -fsSL get.namespace.so/devbox/install.sh | bash

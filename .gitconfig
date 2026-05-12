@@ -1,9 +1,16 @@
 [user]
 	email = 282571+rcrowe@users.noreply.github.com
 	name = Rob Crowe
+	signingkey = ~/.ssh/id_ed25519.pub
 [init]
 	defaultBranch = main
 [core]
 	excludesfile = ~/.gitignore
 [include]
 	path = ~/.gitconfig.local
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
